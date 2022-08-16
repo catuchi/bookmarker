@@ -4,7 +4,7 @@ WebApp that searches a JSON file using Fetch API, Async/Await, Regex and high or
 
 ## Usage
 
-Just download and open index.html. It is all client side
+Just download and open index.html. It is all in the client side
 
 ## Tech Stack
 
