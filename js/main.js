@@ -6,6 +6,12 @@ function saveBookmark(e) {
   let siteName = document.getElementById("siteName").value;
   let siteUrl = document.getElementById("siteUrl").value;
 
+  // error handling for form input
+  if (!siteName || !siteUrl) {
+    alert("Please fill in the form");
+    return false;
+  }
+
   const bookmark = {
     name: siteName,
     url: siteUrl,
